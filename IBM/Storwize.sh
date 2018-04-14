@@ -1,3 +1,5 @@
+# Tested on Lenovo Storwize V3700, V5000 and V7000 series
+
 lsarray
 lsarrayinitprogress
 lsarraylba
