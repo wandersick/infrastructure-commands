@@ -1,3 +1,5 @@
+# For Brocade fiber channel SAN switches running Fabric OS
+
 ipaddrshow
 version
 firmwareshow
