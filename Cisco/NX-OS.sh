@@ -1,27 +1,22 @@
 # Cisco Nexus OS
 
 terminal length 0
-show run
 show version
-show inv
-show env all
-show log 
-show cdp neighbor
-show ip route
+show vpc
+show vpc role
+show vpc statistics peer-link
+show vpc statistics peer-keepalive
+show vpc peer-keepalive
+show vpc usage
+show run
+show vlan
+show ip int brief
+show int brief
 show spanning-tree
-show spanning-tree mst
-show ip interface brief
-show etherchannel summary
-show proc cpu history
-show proc cpu sorted
-show proc memory sorted
-show interface
-show interfaces trunk
-show vtp status
-show ip ospf
-show ip ospf database
-show ip ospf interface
-show vrrp
-show standby
-show switch
-show mac address
+show ip arp
+show mac address-table
+show cdp neighbors
+show routing summary
+show routing
+show port-channel traffic
+show hardware capacity fabric-utilization
