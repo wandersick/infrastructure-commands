@@ -1,2 +1,2 @@
 # infrastructure-inventory
-Collection of commands for querying infrastructure services and devices to acquire statuses and settings.
+List of query commands for inventorying infrastructure services and devices.
