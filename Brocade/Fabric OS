@@ -1,0 +1,19 @@
+ipaddrshow
+version
+firmwareshow
+switchstatusshow
+switchstatuspolicyshow
+switchshow
+portcfgshow
+licenseshow
+fabricshow
+islshow
+trunkshow
+hashow
+configshow fabric.ops
+configshow fabric.ops.pidFormat
+configshow
+cfgshow
+nsallshow
+nscamshow
+chassisshow
