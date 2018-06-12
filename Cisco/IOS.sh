@@ -1,5 +1,6 @@
 terminal length 0
-show run
+show running-config
+show startup-config
 show version
 show inv
 show env all
