@@ -11,6 +11,7 @@ show spanning-tree
 show spanning-tree mst
 show ip interface brief
 show etherchannel summary
+show etherchannel load-balance
 show proc cpu history
 show proc cpu sorted
 show proc memory sorted
