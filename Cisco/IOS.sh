@@ -9,6 +9,7 @@ show cdp neighbor
 show ip route
 show spanning-tree
 show spanning-tree mst
+show spanning-tree detail
 show ip interface brief
 show etherchannel summary
 show etherchannel load-balance
