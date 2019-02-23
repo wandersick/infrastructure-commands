@@ -1,3 +1,4 @@
+showsysmgr -d
 showld -d
 showld -state -sortcol 3
 showalert -n
