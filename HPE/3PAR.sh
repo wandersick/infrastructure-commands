@@ -3,6 +3,7 @@ showld -d
 showld -state -sortcol 3
 showalert -n
 showsys -d
+showpd -s -failed -degraded
 showpd -failed -degraded
 showpdch -fail
 showeventlog -min 20
