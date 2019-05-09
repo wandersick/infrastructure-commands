@@ -4,6 +4,8 @@ terminal length 1000
 
 show running-config
 show config
+show int
+show int br
 show ip
 show captive-portal
 show port-access clients
