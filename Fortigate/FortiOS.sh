@@ -1,3 +1,7 @@
+config system console
+  set output standard
+end
+show full-configuration
 get hardware status
 get system status
 get system ha status
