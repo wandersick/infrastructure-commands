@@ -1,5 +1,7 @@
 # Reference: Aruba 2930F / 2930M Management and Configuration Guide for ArubaOS Switch 16.05
 
+terminal length 1000
+
 show running-config
 show config
 show ip
