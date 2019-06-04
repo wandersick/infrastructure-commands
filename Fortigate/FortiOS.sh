@@ -2,6 +2,8 @@ config system console
   set output standard
 end
 show full-configuration
+show full-configuration system interface
+show system interface
 get hardware status
 get system status
 get system ha status
