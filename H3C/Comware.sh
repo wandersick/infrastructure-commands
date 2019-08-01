@@ -16,4 +16,6 @@ display ip statistics
 display current-configuration
 display saved-configuration
 display base-information 
+display irf topology
+display irf configuration
 display diagnostic-information
