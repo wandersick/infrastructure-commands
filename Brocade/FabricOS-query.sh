@@ -18,4 +18,7 @@ configshow
 cfgshow
 nsallshow
 nscamshow
+defzone --show
+fosconfig --show
+secPolicyShow
 chassisshow
