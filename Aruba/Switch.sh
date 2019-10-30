@@ -45,3 +45,5 @@ show usb-port
 
 show mac-add detail
 show mac-address
+
+show aruba-central
