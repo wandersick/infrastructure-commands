@@ -1,0 +1,451 @@
+autobalance aggregate show-aggregate-state
+autobalance aggregate show-unbalanced-volume-state
+autobalance aggregate config show
+autobalance volume rebalance show
+cf hwassist stats show
+cluster show
+cluster contact-info show
+cluster date show
+cluster ha show
+cluster identity show
+cluster image show-update-history
+cluster image show-update-log-detail
+cluster image show-update-log
+cluster image show-update-progress
+cluster image show
+cluster image package show-repository
+cluster image package show
+cluster kernel-service show
+cluster peer show
+cluster peer connection show
+cluster peer health show
+cluster peer offer show
+cluster peer policy show
+cluster quorum-service options show
+cluster ring show
+cluster statistics show
+cluster time-service ntp server show
+dashboard alarm show
+dashboard alarm thresholds show
+dashboard health vserver show-aggregate
+dashboard health vserver show-combined
+dashboard health vserver show-lif
+dashboard health vserver show-port
+dashboard health vserver show-protocol
+dashboard health vserver show-volume
+dashboard health vserver show
+dashboard performance show
+dashboard storage show
+event config show
+event destination show
+event log show
+event mailhistory show
+event route show
+event snmphistory show
+event status show
+fcp show
+job show-bynode
+job show-cluster
+job show-completed
+job show
+job history show
+job initstate show
+job private show-completed
+job private show
+job schedule show-jobs
+job schedule show
+job schedule cron show
+job schedule interval show
+lun show
+lun bind show
+lun copy show
+lun igroup show
+lun import show
+lun mapping show
+lun move show
+lun persistent-reservation show
+lun portset show
+lun transition show
+lun transition 7-mode show
+metrocluster show
+metrocluster check show
+metrocluster check aggregate show
+metrocluster check config-replication show-aggregate-eligibility
+metrocluster check config-replication show-capture-status
+metrocluster check config-replication show
+metrocluster check lif show
+metrocluster check node show
+metrocluster config-replication cluster-storage-configuration show
+metrocluster config-replication resync-status show
+metrocluster interconnect adapter show
+metrocluster interconnect mirror show
+metrocluster interconnect mirror multipath show
+metrocluster node show
+metrocluster operation show
+metrocluster operation history show
+metrocluster vserver show
+network arp show
+network arp active-entry show
+network connections active show-clients
+network connections active show-lifs
+network connections active show-protocols
+network connections active show-services
+network connections active show
+network connections listening show
+network device-discovery show
+network fcp adapter show
+network interface show-zones
+network interface show
+network interface dns-lb-stats show
+network interface failover-groups show
+network interface lif-weights show
+network ipspace show
+network ndp default-router show
+network ndp neighbor show
+network ndp neighbor active-entry show
+network ndp prefix show
+network options cluster-health-notifications show
+network options ipv6 show
+network options load-balancing show
+network options send-soa show
+network options switchless-cluster show
+network port show
+network port broadcast-domain show
+network port ifgrp show
+network port vlan show
+network route show-lifs
+network route show
+network route active-entry show
+network subnet show
+qos policy-group show
+security audit show
+security certificate show
+security certificate ca-issued show
+security login show
+security login domain-tunnel show
+security login publickey show
+security login role show-ontapi
+security login role show
+security login role config show
+security ssh show
+security ssl show
+snapmirror show-history
+snapmirror show
+snapmirror policy show
+snapmirror policy show -policy DPDefault -instance
+snapmirror policy show -policy MirrorAllSnapshots -instance
+snapmirror policy show -policy MirrorLatest -instance
+snapmirror policy show -policy MirrorAndVault -instance
+snapmirror policy show -policy Unified7year -instance
+snapmirror policy show -policy XDPDefault -instance
+snapmirror snapshot-owner show
+statistics show-periodic
+statistics show
+statistics aggregate show
+statistics cache flash-pool show
+statistics catalog counter show
+statistics catalog instance show
+statistics catalog object show
+statistics disk show
+statistics lif show
+statistics lun show
+statistics node show
+statistics oncrpc show-rpc-calls
+statistics port fcp show
+statistics preset show
+statistics preset detail show
+statistics samples show
+statistics secd show
+statistics settings show
+statistics system show
+statistics volume show
+statistics vserver show
+statistics workload show
+storage aggregate show-resync-status
+storage aggregate show-scrub-status
+storage aggregate show-space
+storage aggregate show-spare-disks
+storage aggregate show-status
+storage aggregate show
+storage aggregate plex show
+storage aggregate relocation show
+storage array show
+storage array config show
+storage array port show
+storage bridge show
+storage disk show
+storage disk error show
+storage disk option show
+storage errors show
+storage failover show-giveback
+storage failover show-takeover
+storage failover show
+storage failover hwassist show
+storage failover hwassist stats show
+storage failover interconnect show-link
+storage failover interconnect statistics error show
+storage failover internal-options show
+storage failover mailbox-disk show
+storage failover progress-table show
+storage load show
+storage path show-by-initiator
+storage path show
+storage pool show-aggregate
+storage pool show-available-capacity
+storage pool show-disks
+storage pool show
+storage port show
+storage raid-options show
+storage shelf show
+storage shelf show -connectivity
+storage show
+storage show disk
+storage switch show
+storage tape show-errors
+storage tape show-media-changer
+storage tape show-supported-status
+storage tape show-tape-drive
+storage tape show
+storage tape alias show
+storage tape library config show
+storage tape library path show-by-initiator
+storage tape library path show
+system chassis show
+system chassis fru show
+system cluster-switch show-all
+system cluster-switch show
+system cluster-switch polling-interval show
+system configuration backup show
+system configuration backup settings show
+system configuration recovery cluster show
+system controller show
+system controller bootmedia show
+system controller config show-errors
+system controller config pci show-add-on-devices
+system controller config pci show-hierarchy
+system controller environment show
+system controller fru show
+system controller ioxm show
+system controller memory dimm show
+system controller pci show
+system controller sp config show
+system controller sp upgrade show
+system feature-usage show-history
+system feature-usage show-summary
+system health alert show
+system health alert show -instance
+system health alert definition show
+system health autosupport trigger history show
+system health config show
+system health cluster-switch show
+system health cluster-switch show-all
+system health cluster-switch polling-interval show
+system health node-connectivity adapter show
+system health node-connectivity disk show
+system health node-connectivity shelf show
+system health policy definition show
+system health status show
+system health subsystem show
+system health system-connectivity shelf show
+system health system-connectivity shelf show -instance
+system license show
+system license status show
+system node show-discovered
+system node show-memory-errors
+system node show
+system node autosupport show
+system node autosupport destinations show
+system node autosupport history show-upload-details
+system node autosupport history show
+system node autosupport manifest show
+system node autosupport trigger show
+system node coredump show
+system node coredump config show
+system node coredump reports show
+system node coredump segment show
+system node coredump segment config show
+system node environment sensors show
+system node hardware tape drive show
+system node hardware tape library show
+system node hardware unified-connect show
+system node image show-update-progress
+system node image show
+system node image package show
+system node internal-switch show
+system node platform ifswitch mode show
+system node power show
+system node root-mount show
+system node upgrade-revert show
+system node virtual-machine hypervisor show-credentials
+system node virtual-machine hypervisor show
+system node virtual-machine instance show-system-disks
+system node virtual-machine instance show
+system script show
+system service-processor show
+system service-processor api-service show
+system service-processor image show
+system service-processor image update-progress show
+system service-processor log show-allocations
+system service-processor network show
+system service-processor network auto-configuration show
+system service-processor ssh show
+system services firewall show
+system services firewall policy show
+system services manager install show
+system services manager policy show
+system services manager status show
+system services ndmp show
+system services ntp server show
+system services web show
+system services web node show
+system smtape showheader
+system smtape status show
+system snmp show
+system snmp community show
+system snmp traphost show
+system timeout show
+volume show-footprint
+volume show-space
+volume show
+volume clone show
+volume clone split show
+volume efficiency show
+volume efficiency policy show
+volume file show-disk-usage
+volume file show-filehandle
+volume file show-inode
+volume file clone show-autodelete
+volume file clone deletion show
+volume file clone split load show
+volume move show
+volume move recommend show
+volume move target-aggr show
+volume qtree show
+volume quota show
+volume quota policy show
+volume quota policy rule show
+volume snapshot show
+volume snapshot autodelete show
+volume snapshot policy show
+vserver show-protocols
+vserver show
+vserver active-directory show
+vserver active-directory discovered-servers show
+vserver active-directory preferred-dc show
+vserver audit show
+vserver check lif-multitenancy show-results
+vserver check lif-multitenancy show
+vserver cifs show
+vserver cifs branchcache show
+vserver cifs character-mapping show
+vserver cifs domain discovered-servers show
+vserver cifs domain name-mapping-search show
+vserver cifs domain password schedule show
+vserver cifs domain preferred-dc show
+vserver cifs domain trusts show
+vserver cifs group-policy show-applied
+vserver cifs group-policy show-defined
+vserver cifs group-policy show
+vserver cifs group-policy central-access-policy show-applied
+vserver cifs group-policy central-access-policy show-defined
+vserver cifs group-policy central-access-rule show-applied
+vserver cifs group-policy central-access-rule show-defined
+vserver cifs group-policy restricted-group show-applied
+vserver cifs group-policy restricted-group show-defined
+vserver cifs home-directory show-user
+vserver cifs home-directory show
+vserver cifs home-directory search-path show
+vserver cifs options show
+vserver cifs security show
+vserver cifs session show
+vserver cifs session file show
+vserver cifs share show
+vserver cifs share access-control show
+vserver cifs share properties show
+vserver cifs superuser show
+vserver cifs symlink show
+vserver cifs users-and-groups local-group show-members
+vserver cifs users-and-groups local-group show
+vserver cifs users-and-groups local-user show-membership
+vserver cifs users-and-groups local-user show
+vserver cifs users-and-groups privilege show
+vserver config-replication show
+vserver export-policy show
+vserver export-policy netgroup cache show
+vserver export-policy netgroup queue show
+vserver export-policy rule show
+vserver fcp show
+vserver fcp initiator show
+vserver fcp interface show
+vserver fcp portname show
+vserver fcp wwn blacklist show
+vserver fcp wwpn-alias show
+vserver fpolicy show-enabled
+vserver fpolicy show-engine
+vserver fpolicy show-passthrough-read-connection
+vserver fpolicy show
+vserver fpolicy policy show
+vserver fpolicy policy event show
+vserver fpolicy policy external-engine show
+vserver fpolicy policy scope show
+vserver group-mapping show
+vserver iscsi show
+vserver iscsi command show
+vserver iscsi connection show
+vserver iscsi initiator show
+vserver iscsi interface show
+vserver iscsi interface accesslist show
+vserver iscsi isns show
+vserver iscsi portal show
+vserver iscsi security show
+vserver iscsi session show
+vserver iscsi session parameter show
+vserver locks show
+vserver name-mapping show
+vserver nfs show
+vserver nfs kerberos interface show
+vserver nfs kerberos realm show
+vserver nfs pnfs devices show
+vserver nfs pnfs devices cache show
+vserver nfs pnfs devices mappings show
+vserver peer show-all
+vserver peer show
+vserver peer transition show
+vserver security file-directory show
+vserver security file-directory job show
+vserver security file-directory ntfs show
+vserver security file-directory ntfs dacl show
+vserver security file-directory ntfs sacl show
+vserver security file-directory policy show
+vserver security file-directory policy task show
+vserver security trace filter show
+vserver security trace trace-result show
+vserver services name-service dns show-statistics
+vserver services name-service dns show
+vserver services name-service dns hosts show
+vserver services name-service ldap show
+vserver services name-service ldap client show
+vserver services name-service ldap client schema show
+vserver services name-service netgroup file show
+vserver services name-service nis-domain show-bound
+vserver services name-service nis-domain show-statistics
+vserver services name-service nis-domain show
+vserver services name-service ns-switch show
+vserver services name-service unix-group show
+vserver services name-service unix-group max-limit show
+vserver services name-service unix-user show
+vserver services name-service unix-user max-limit show
+vserver services ndmp show
+vserver services ndmp extensions show
+vserver services web show
+vserver services web access show
+vserver vscan show
+vserver vscan connection-status show-all
+vserver vscan connection-status show-connected
+vserver vscan connection-status show-not-connected
+vserver vscan connection-status show
+vserver vscan on-access-policy show
+vserver vscan scanner-pool show-active
+vserver vscan scanner-pool show
+vserver vscan scanner-pool privileged-users show
+vserver vscan scanner-pool servers show
