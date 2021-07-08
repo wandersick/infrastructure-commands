@@ -106,6 +106,7 @@ uname -r
 # Display system release date, etc.
 
 cat /proc/release
+cat /etc/centos-release
 
 # Show name and version of distribution
 
