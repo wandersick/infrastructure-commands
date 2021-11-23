@@ -26,3 +26,14 @@ show vrrp
 show standby
 show switch
 show mac address
+
+--
+## sg350x ##
+show interfaces status
+show interfaces configuration
+show interfaces counters
+show interfaces advertise
+show interfaces description
+show interfaces access-lists
+show interfaces port-channel
+show interfaces switchport
