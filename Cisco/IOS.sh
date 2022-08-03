@@ -37,3 +37,4 @@ show interfaces description
 show interfaces access-lists
 show interfaces port-channel
 show interfaces switchport
+show mac address-table
