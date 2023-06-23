@@ -40,3 +40,4 @@ show interfaces switchport
 show mac address-table
 show arp
 show arp configuration
+show power inline
